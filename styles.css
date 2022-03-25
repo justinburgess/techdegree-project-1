@@ -114,7 +114,7 @@ header .profile-image:hover {
   width: 40px;
   margin-right: 5px;
 }
-.cert:hover, .cert:active {
+.cert:hover, .cert:active, .reference:hover, .reference:active {
   text-decoration: inherit;
   transform: scale(1.1);
   transition: 0.3s;
@@ -133,6 +133,9 @@ header .profile-image:hover {
 .card-picture {
   margin-left: 5%;
   width: 90%;
+}
+.experience-image {
+  width: 350px;
 }
 .experience-bullets {
   margin-top: 6px;
